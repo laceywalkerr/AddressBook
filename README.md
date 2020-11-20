@@ -322,3 +322,13 @@ class Program
     }
 }
 ```
+
+### Setup
+
+```sh
+mkdir -p ~/workspace/addressbook && cd $_
+dotnet new console -n AddressBook -o .
+touch Building.cs
+```
+
+dotnet run to run program from console
